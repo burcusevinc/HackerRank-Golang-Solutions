@@ -1,4 +1,4 @@
-package Hacker_Rank_Solutions
+package main
 
 func simpleArraySum(arr []int32) int32 {
 	var sum int32 = 0
@@ -6,4 +6,9 @@ func simpleArraySum(arr []int32) int32 {
 		sum += arr[i]
 	}
 	return sum
+}
+
+func main() {
+	a := []int32{2, 3, 5, 11}
+	simpleArraySum(a)
 }
